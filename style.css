@@ -25,10 +25,21 @@ h1 {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    border-radius: 10px;
     box-shadow: 0 0 10px #ccc;
 }
-
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+    
 .cell:hover {
     background: #ddd;
 }
