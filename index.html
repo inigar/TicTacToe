@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTicTacToe.com</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <h1>Tic Tac Toe</h1>
-  </nav>
 
     <div class="game-container">
-        <div class="cell bt-0 bl-0" data-index="0"></div>
-        <div class="cell bt-0" data-index="1"></div>
-        <div class="cell bt-0 br-0" data-index="2"></div>
-        <div class="cell bl-0" data-index="3"></div>
-        <div class="cell" data-index="4"></div>
-        <div class="cell br-0" data-index="5"></div>
-        <div class="cell bl-0 bb-0" data-index="6"></div>
-        <div class="cell bb-0" data-index="7"></div>
-        <div class="cell bb-0 br-0" data-index="8"></div>
+
+        <div class="board">
+            <div class="box" data-index="0"></div>
+            <div class="box" data-index="1"></div>
+            <div class="box" data-index="2"></div>
+            <div class="box" data-index="3"></div>
+            <div class="box" data-index="4"></div>
+            <div class="box" data-index="5"></div>
+            <div class="box" data-index="6"></div>
+            <div class="box" data-index="7"></div>
+            <div class="box" data-index="8"></div>
+        </div>
+
+        <div class="info-panel">
+            <h1>Welcome to Tic Tac MyTicTacToe</h1>
+            <p id="turn">Turn for X</p>
+            <button id="reset">Reset</button>
+        </div>
+
     </div>
-
-    <h2 id="status">Player X Turn</h2>
-
-    <button id="resetBtn">Restart Game</button>
 
     <script src="script.js"></script>
 </body>
